@@ -1,4 +1,4 @@
-package sample;
+package main.SMS;
 
 public class Controller {
 }

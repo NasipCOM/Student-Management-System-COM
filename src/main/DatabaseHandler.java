@@ -1,9 +1,11 @@
+package main;
+
 import java.sql.Connection;
-import java.sql.DriveManager;
+import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseHandler exdends Configs{
-    Connection dbConnection;
+    private Connection dbConnection;
 
     public Connection getDbConnectino()
         throws ClassNotFoundException, SQLException{

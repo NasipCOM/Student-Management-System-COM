@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DatabaseHandler exdends Configs{
+public class DatabaseHandler extends Configs{
     private Connection dbConnection;
 
     public Connection getDbConnectino()

@@ -1,4 +1,4 @@
-package main.SMS;
+package sample;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,8 +10,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
-        primaryStage.setTitle("StudentManagmentSystem");
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        primaryStage.setTitle("Student Managment System");
         primaryStage.setScene(new Scene(root, 700, 400));
         primaryStage.show();
     }
